@@ -21,7 +21,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
   if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "owner k")) {
-     return api.sendMessage("️ AYAN Chowdhury", threadID, messageID);
+     return api.sendMessage("️ MOHAMMAD BAYJID  threadID, messageID);
    };
    
   if ((event.body.toLowerCase() == "bat suno") || (event.body.toLowerCase() == "bat sun")) {
