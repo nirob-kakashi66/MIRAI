@@ -10,7 +10,7 @@ module.exports.config = {
 }; 
 
 module.exports.run = async ({ args, api, event, Users }) => {
- const permission = ["61558522534273",""];
+ const permission = ["100005193854879","100005193854879"];
              if (!permission.includes(event.senderID))
              return api.sendMessage("Bappa boss only.", event.threadID, event.messageID);
  
