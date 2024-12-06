@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "bot",
+  name: "xan",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "AYAN CHOWDHURY",//don’t change credits
