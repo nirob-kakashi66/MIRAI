@@ -1,6 +1,6 @@
 var dek = "Deku";
 module.exports.config = {
-  name: "gfx6",
+  name: "next gf",
   version: "1.0.1",
   hasPermssion: 0,
   credits: `${dek} (fix by Siegfried Sama)`,
