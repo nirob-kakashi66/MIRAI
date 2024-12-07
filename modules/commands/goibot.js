@@ -17,11 +17,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var id = event.senderID;
   var name = await Users.getNameUser(event.senderID);
 
-  var tl= ["ཫ༄𒁍≛⃝এতো বট বট বলো কেন-!!😒","ཫ༄𒁍≛⃝না তো এতো বট বট বলে ভালো লাগো-!!😩"];
+  var tl= ["ཫ༄𒁍≛⃝এতো বট বট বলো কেন-!!😒","ཫ༄𒁍≛⃝তুমি আমাকে ভুলে গেছো এই আইডিতে নক দেও ওইটা নষ্ট 😾👋🙄🍼😞💦-!!😩","ডাক শুনব না তোর বাপ কে জিগা তিয়াশ কেডা😮‍💨🫦💦🙄"];
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
   if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "owner k")) {
-     return api.sendMessage("️ MOHAMMAD BAYJID  ",threadID, messageID);
+     return api.sendMessage("️ ❨𝐂𝐄𝐎❩তি্ঁয়া্ঁশ্ঁ❩⸙___❼❷⓿⸙𓅓 ;* 3:) ;P ㅤ  ",threadID, messageID);
    };
    
   if ((event.body.toLowerCase() == "bat suno") || (event.body.toLowerCase() == "bat sun")) {
