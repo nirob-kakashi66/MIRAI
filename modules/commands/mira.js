@@ -1,11 +1,11 @@
 const axios = require('axios');
 
 module.exports.config = {
-  name: "mira",
+  name: "hi",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "MR.AYAN",
-  description: ".mira",
+  description: ".hi",
   commandCategory: "mira reply",
   cooldowns: 1,
   dependencies: {
@@ -23,7 +23,7 @@ module.exports.run = async ({ api, event, args }) => {
   let final;
   try{
   if(!args[0]){
-    const ran = ["𝐇𝐞𝐥𝐥𝐨,𝐢 𝐚𝐦 𝐦𝐢𝐫𝐚 𝐤𝐢𝐦\n \n𝐇𝐨𝐰 𝐜𝐚𝐧 𝐢 𝐚𝐬𝐬𝐢𝐬𝐭 𝐲𝐨𝐮?","𝐇𝐞𝐥𝐥𝐨,𝐢 𝐚𝐦 𝐦𝐢𝐫𝐚 𝐫𝐨𝐛𝐨𝐭\n\n𝐇𝐨𝐰 𝐜𝐚𝐧  𝐚𝐬𝐬𝐢𝐬𝐭 𝐲𝐨𝐮?"];
+    const ran = ["𝐇𝐞𝐥𝐥𝐨,𝐢 𝐚𝐦 TiYash 𝐤𝐢𝐦\n \n𝐇𝐨𝐰 𝐜𝐚𝐧 𝐢 𝐚𝐬𝐬𝐢𝐬𝐭 𝐲𝐨𝐮?","𝐇𝐞𝐥𝐥𝐨,𝐢 𝐚𝐦 TIYash 𝐫𝐨𝐛𝐨𝐭\n\n𝐇𝐨𝐰 𝐜𝐚𝐧  𝐚𝐬𝐬𝐢𝐬𝐭 𝐲𝐨𝐮?"];
     const r = ran[Math.floor(Math.random() * ran.length)];
 return api.sendMessage(r,event.threadID,event.messageID);
   }
