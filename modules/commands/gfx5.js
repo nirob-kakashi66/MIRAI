@@ -1,6 +1,6 @@
 var dev = "CHAND";
 module.exports.config = {
-  name: "gfx5",
+  name: "bow",
   version: "1.0.1",
   hasPermssion: 0,
   credits: `${dev}`,
