@@ -2,7 +2,7 @@ module.exports.config = {
     name: "hug",
     version: "3.1.1",
     hasPermssion: 0,
-    credits: "AYAN",
+    credits: "TEAM CXLY />BAYJID",
     description: "Hug 🥰",
     commandCategory: "img",
     usages: "[@mention]",
