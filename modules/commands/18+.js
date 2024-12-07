@@ -240,6 +240,6 @@ const fs = global.nodemodule["fs-extra"];
 
 "https://i.postimg.cc/fR6KgQHC/big-boobs-of-sexy-Pakistani-girl-exposed.jpg",
     ];
-   var callback = () => api.sendMessage({body:`⚠️ | 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥 𝐭𝐡𝐢𝐬 18+ 𝐏𝐡𝐨𝐭𝐨..🥀+\nBAYJID : ${link.length}`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
+   var callback = () => api.sendMessage({body:`⚠️ | 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥 𝐭𝐡𝐢𝐬 18+ 𝐏𝐡𝐨𝐭𝐨..🥀+\n𝐓𝐈𝐘𝐀𝐒𝐇 : ${link.length}`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/1.jpg")).on("close",() => callback());
    };
