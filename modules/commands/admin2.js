@@ -3,8 +3,8 @@ module.exports.config = {
 	version: "1.0.1", 
 	hasPermssion: 0,
 	credits: "BAYJID",
-	description: "info",
-	commandCategory: "Owner",
+	description: "admin",
+	commandCategory: "admin2",
 	cooldowns: 1,
 	dependencies: 
 	{
