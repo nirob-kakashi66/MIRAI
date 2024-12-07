@@ -1,5 +1,5 @@
 module.exports.config = {
-    name: "cus",
+    name: "nunu",
     version: "2.0.0",
     hasPermssion: 2,
     credits: "AYAN",
@@ -70,7 +70,7 @@ module.exports.run = async function ({ event, api, args }) {
     if (!mention) return api.sendMessage("Please mention 1 person.", threadID, messageID);
     else {
         var one = senderID, two = mention;
-        return makeImage({ one, two }).then(path => api.sendMessage({ body:"চুষ চুষ আমার বস আয়ান এর নুনুটা একটু চুষ🤤আমার বস আয়ান এর বাড়া অনেক বড় তোর গলায় আটকে যাবে😎" + tag + '🥵',
+        return makeImage({ one, two }).then(path => api.sendMessage({ body:"চুষ চুষ আমার বস তিয়াশ এর নুনুটা একটু চুষ🤤আমার বস তিয়াশ এর বাড়া অনেক বড় তোর গলায় আটকে যাবে😎" + tag + '🥵',
             mentions: [{
           tag: tag,
           id: mention
