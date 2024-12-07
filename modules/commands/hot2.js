@@ -1,6 +1,6 @@
 /** dont change credits pleas**/
 module.exports.config = {
-  name: "hot2",
+  name: "hot vedio",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "TEAM CXLY /BAYJID",
