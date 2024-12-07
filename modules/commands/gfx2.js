@@ -1,6 +1,6 @@
 var dev = "CHAND";
 module.exports.config = {
-  name: "gfx2",
+  name: "gf daw",
   version: "1.0.1",
   hasPermssion: 0,
   credits: `${dev}`,
