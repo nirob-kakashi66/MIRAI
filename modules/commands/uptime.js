@@ -3,7 +3,7 @@ module.exports.config = {
 	aliases: ["upt"," up"],
 	version: "1.0.0",
 	hasPermssion: 1,
-	credits: "Team Cxly | BaYjId",// YOU I DONT CREDIT CHENGE OK
+	credits: "Team Cxly | ArYan",// YOU I DONT CREDIT CHENGE OK
   hide: true,
 	description: "Api uptime",
 	commandCategory: "INFO",
