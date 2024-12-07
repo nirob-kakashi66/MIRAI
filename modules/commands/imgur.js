@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "imgur",
+  name: "link",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "NAYAN",// cmd convert to MR.AYAN **//
