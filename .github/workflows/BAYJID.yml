@@ -8,21 +8,23 @@ on:
 
 jobs:
   build:
-
-
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm install
-    - run: npm start
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+          cache: false  # Cache disable kora holo jate 422 error na dey
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run app (optional)
+        run: npm start
+
+      - name: Run tests (if any)
+        run: npm test
